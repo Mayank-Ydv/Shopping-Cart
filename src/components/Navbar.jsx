@@ -2,6 +2,7 @@ import {FaShoppingCart} from "react-icons/fa"
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 import logo from "./logo.png"
+import Home from "../pages/Home";
 
 const Navbar = () => {
 
@@ -38,6 +39,7 @@ const Navbar = () => {
             
           </div>
       </nav>
+      {/* <Home/> */}
     </div>
   )
 };

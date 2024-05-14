@@ -28,7 +28,7 @@ const Home = () => {
   },[])
 
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center">
       {
         loading ? <Spinner />  :
         posts.length > 0 ? 
